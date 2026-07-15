@@ -1,46 +1,34 @@
-# Astro Starter Kit: Basics
+# SagaSmith UI
 
-```sh
-npm create astro@latest -- --template basics
+**Cross-system client exploration for the SagaSmithAI platform.** This repository is where shared TTRPG interface concepts can be tested before they become stable system-specific workbenches.
+
+## Scope
+
+The shared UI should eventually provide system-neutral surfaces for:
+
+- Agent/channel presence and authenticated table identity;
+- campaign selection, branch continuity, events, and snapshots;
+- party and actor knowledge boundaries;
+- source-aware rule and module navigation;
+- plugin-provided system panels for D&D, CoC, and future systems.
+
+System mechanics do not belong here. D&D combat, CoC SAN/chases, character schemas, and content parsers remain in their system runtimes and MCP services. The browser must never access domain databases directly.
+
+## Current status
+
+Prototype. The D&D-specific product direction is being validated first in [sagasmith-dnd-ui](https://github.com/SagaSmithAI/sagasmith-dnd-ui). Shared components should move here only after their contracts are proven across at least two systems.
+
+## Development
+
+Requires Node.js 22.12+.
+
+```bash
+npm install
+npm run dev
+npm run build
+npm run preview
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## License
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+MIT
