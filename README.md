@@ -1,5 +1,7 @@
 # SagaSmith UI
 
+[Website](https://sagasmithai.github.io) · [Platform overview](https://github.com/SagaSmithAI/.github/blob/main/profile/README.md) · [Hosted service](https://github.com/SagaSmithAI/SagaSmith-service) · [Content catalog](https://github.com/SagaSmithAI/SagaSmith-dnd-content-library)
+
 **Cross-system client exploration for the SagaSmithAI platform.** This repository is where shared TTRPG interface concepts can be tested before they become stable system-specific workbenches.
 
 ## Scope
