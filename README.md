@@ -1,5 +1,10 @@
 # SagaSmith UI
 
+> [!IMPORTANT]
+> **本仓库已归档。** 它不再是发布输入、兼容回退或新 issue 的接收位置。当前 Hosted 浏览器产品位于 [SagaSmith Web](https://github.com/SagaSmithAI/SagaSmith-service)；领域工作台分别随对应的 vertical repository 发布。
+>
+> **This repository is archived.** It is no longer a release input, compatibility fallback, or destination for new issues. The current hosted browser product lives in [SagaSmith Web](https://github.com/SagaSmithAI/SagaSmith-service), while domain workbenches ship from their vertical repositories.
+
 [Website](https://sagasmithai.github.io) · [Platform overview](https://github.com/SagaSmithAI/.github/blob/main/profile/README.md) · [Hosted service](https://github.com/SagaSmithAI/SagaSmith-service) · [Content catalog](https://github.com/SagaSmithAI/SagaSmith-dnd-content-library)
 
 **Cross-system client exploration for the SagaSmithAI platform.** This repository is where shared TTRPG interface concepts can be tested before they become stable system-specific workbenches.
